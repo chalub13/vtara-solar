@@ -3,47 +3,70 @@ $font-stack: 'Lato', sans-serif
 $body-color: #505962
 $dark-green: #1e651f
 $light-green: #289c32
-$yellow: #cfcb48
-$orange: #c99b30
+$yellow: #f5e314
+$orange: #e9a60e
+$sm-shadow: 0.1rem 0.1rem 0.3rem black
+$lg-shadow: 0.1rem 0.1rem 0.8rem black
 
-body 
+html, body 
     overflow-x: hidden
     font-family: 'Lato', sans-serif
     color: $body-color
+    height: 100%
 .navbar 
     text-transform: uppercase
     font-weight: 700
     font-size: 0.9rem
     letter-spacing: 0.1rem
     background: rgba(0, 0, 0, 0.6) !important
+    padding: .1rem 1rem !important
 .navbar-brand img 
-    height: 2rem
+    height: 4rem
 .navbar-nav li 
     padding-right: 0.7rem
-.navbar-dark .navbar-nav .nav-link 
-    color: $yellow
-    padding-top: 0.8rem
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover 
-    color: $light-green
+.navbar-dark
+    .navbar-nav
+        .nav-link 
+            color: $orange
+            padding-top: 0.8rem
+        .nav-link.active,
+        .nav-link:hover 
+            color: $light-green
+.home-inner
+    background-image: url("../../assets/img/ZJA0tegg.jpg")
+    background-position: 50%
+    background-size: cover
+    min-height: 100vh
+    width: auto
+
 .caption 
     width: 100%
     max-width: 100%
     position: absolute
     top: 38%
-    color: white
+    color: $orange
     text-transform: uppercase
-.caption h1 
-    font-size: 3.8rem
-    font-weight: 700
-    letter-spacing: 0.4rem
-    text-shadow: 0.1rem 0.1rem 0.8rem black
-.caption h3 
-    font-size: 2rem
-    font-weight: 700
-    padding-bottom: 2.6rem 
+    h1 
+        font-size: 3.8rem
+        font-weight: 700
+        letter-spacing: 0.4rem
+        text-shadow: $lg-shadow
+    h3 
+        font-size: 2rem
+        font-weight: 700
+        padding-bottom: 2.6rem 
+        text-shadow: $sm-shadow
 .btn-lg 
     border-width: medium
     border-radius: 0
+    border-color: $orange
+    color: $orange
     padding: 0.6rem 1.3rem
     font-size: 1.1rem
+    box-shadow: $sm-shadow
+    text-shadow: $lg-shadow
+.btn-lg:hover
+    background-color: $orange
+    border-color: $orange
+    box-shadow: $sm-shadow
+    text-shadow: none
