@@ -7,38 +7,131 @@ $yellow: #f5e314
 $orange: #e9a60e
 $sm-shadow: 0.1rem 0.1rem 0.3rem black
 $lg-shadow: 0.1rem 0.1rem 0.8rem black
+$top-height: 27px
 
-html, body 
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"]
+    padding: 1rem
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid
+    margin-left: 0px!important
+    margin-right: 0px!important
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top
+    -webkit-backface-visibility: hidden
+
+/*--- Fixed Landing Page Section --*/
+.landing
+    position: relative 
+    width: 100%
+    height: 100vh
+    display: table
+    z-index: -1
+.home-wrap
+    clip: rect(0, auto, auto, 0)
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+/*--- iOS Fixed Background Image --*/
+// .fixed-background {
+//   position: relative;
+//   width: 100%;
+// }
+// .fixed-wrap {
+//   clip: rect(0, auto, auto, 0);
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   z-index: -999!important;
+// }
+// .fixed {
+//   position: fixed;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-size: cover;
+//   background-position: center center;
+//   -webkit-transform: translateZ(0);
+//           transform: translateZ(0);
+//   will-change: transform;
+// }
+
+body 
     overflow-x: hidden
     font-family: 'Lato', sans-serif
     color: $body-color
     height: 100%
-.navbar 
+    
+.navbar#topNav
     text-transform: uppercase
     font-weight: 700
-    font-size: 0.9rem
+    letter-spacing: 0.2rem
+    height: $top-height
+    background-color: $dark-green !important
+    padding: .1rem 1rem !important
+    @media (min-width: 768px)
+        font-size: 0.7rem
+    @media (max-width: 767px)
+        font-size: 0.5rem
+    div#barGroup
+        ul.navbar-nav
+            max-height: $top-height
+            li.nav-item
+                max-height: $top-height
+                padding-right: 1rem
+                a.nav-link
+                    max-height: $top-height
+                    padding: 0
+.navbar#mainNav
+    margin-top: $top-height
+    text-transform: uppercase
+    font-weight: 700
     letter-spacing: 0.1rem
     background: rgba(0, 0, 0, 0.6) !important
     padding: .1rem 1rem !important
-.navbar-brand img 
-    height: 4rem
-.navbar-nav li 
-    padding-right: 0.7rem
-.navbar-dark
+    @media (min-width: 768px)
+        font-size: 0.9rem
+    @media (max-width: 767px)
+        font-size: 0.7rem
+    .navbar-brand img 
+        height: 4rem
+    .navbar-nav li 
+        padding-right: 0.7rem
+.navbar#mainNav
     .navbar-nav
         .nav-link 
             color: $orange
-            padding-top: 0.8rem
+            @media (min-width: 768px)
+                padding-top: 0.8rem
+            @media (max-width: 767px)
+                padding: 0
+                padding-top: 0.4rem
+                padding-bottom: 0.2rem
         .nav-link.active,
         .nav-link:hover 
             color: $light-green
 .home-inner
+    position: fixed
+    display: table
+    top: 0
+    left: 0
+    width: 100%
+    -webkit-transform: translateZ(0)
+    transform: translateZ(0)
+    will-change: transform
     background-image: url("../../assets/img/ZJA0tegg.jpg")
     background-position: 50%
     background-size: cover
     min-height: 100vh
-    width: auto
-
 .caption 
     width: 100%
     max-width: 100%
@@ -46,25 +139,42 @@ html, body
     top: 38%
     color: $orange
     text-transform: uppercase
-    h1 
-        font-size: 3.8rem
-        font-weight: 700
-        letter-spacing: 0.4rem
-        text-shadow: $lg-shadow
-    h3 
-        font-size: 2rem
-        font-weight: 700
-        padding-bottom: 2.6rem 
-        text-shadow: $sm-shadow
+    @media (min-width: 768px)
+        h1 
+            font-size: 3.8rem
+            font-weight: 700
+            letter-spacing: 0.4rem
+            text-shadow: $lg-shadow
+        h3 
+            font-size: 2rem
+            font-weight: 700
+            padding-bottom: 2.6rem 
+            text-shadow: $sm-shadow
+    @media (max-width: 767px)
+        h1 
+            font-size: 1.8rem
+            font-weight: 700
+            letter-spacing: 0.4rem
+            text-shadow: $lg-shadow
+        h3 
+            font-size: 0.9rem
+            font-weight: 700
+            padding-bottom: 2.6rem 
+            text-shadow: $sm-shadow
 .btn-lg 
-    border-width: medium
     border-radius: 0
     border-color: $orange
     color: $orange
-    padding: 0.6rem 1.3rem
-    font-size: 1.1rem
     box-shadow: $sm-shadow
     text-shadow: $lg-shadow
+    @media (min-width: 768px)
+        border-width: medium
+        font-size: 1.1rem
+        padding: 0.6rem 1.3rem
+    @media (max-width: 767px)
+        border-width: small
+        font-size: .7rem
+        padding: 0.6rem 1.3rem
 .btn-lg:hover
     background-color: $orange
     border-color: $orange
