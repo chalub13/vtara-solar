@@ -36,13 +36,85 @@
   <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a routerLink="/forHomeOwners" class="nav-link">{{ forHome }}</a>
+        <div class="dropdown">
+          <a
+            routerLink="/forHomeOwners"
+            class="nav-link dropdown-toggle"
+            id="dropdownMenuOwners"
+            data-toggle="dropdown"
+            data-hover="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >{{ forHome }}</a
+          >
+          <div
+            class="dropdown-menu dropdown-menu-right"
+            aria-labelledby="dropdownMenuOwners"
+            id="dropdownItemsOwners"
+          >
+            <a class="dropdown-item nav-link" href="#">Action</a>
+            <a class="dropdown-item nav-link" href="#">Another action</a>
+            <a class="dropdown-item nav-link" href="#">Something else here</a>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
-        <a routerLink="/forBusiness" class="nav-link">{{ forBusiness }}</a>
+        <div class="dropdown">
+          <a
+            routerLink="/forBusiness"
+            class="nav-link dropdown-toggle"
+            id="dropdownMenuBusiness"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >{{ forBusiness }}</a
+          >
+          <div
+            class="dropdown-menu dropdown-menu-right"
+            aria-labelledby="dropdownMenuBusiness"
+            id="dropdownItemsBusiness"
+          >
+            <a class="dropdown-item nav-link" href="#">Action</a>
+            <a class="dropdown-item nav-link" href="#">Another action</a>
+            <a class="dropdown-item nav-link" href="#">Something else here</a>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
-        <a routerLink="/about" class="nav-link">{{ about }}</a>
+        <div class="dropdown">
+          <a
+            routerLink="/about"
+            class="nav-link dropdown-toggle"
+            id="dropdownMenuAbout"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >{{ about }}</a
+          >
+          <div
+            class="dropdown-menu dropdown-menu-right"
+            aria-labelledby="dropdownMenuAbout"
+            id="dropdownItemsAbout"
+          >
+            <a class="dropdown-item nav-link" routerLink="/about-team">Team</a>
+            <a class="dropdown-item nav-link" routerLink="/about-mission"
+              >Mission</a
+            >
+            <a class="dropdown-item nav-link" routerLink="/about-core-values"
+              >Core Values</a
+            >
+            <a class="dropdown-item nav-link" routerLink="/about-contact-us"
+              >Contact Us</a
+            >
+            <a class="dropdown-item nav-link" routerLink="/about-work-with-us"
+              >Work With Us</a
+            >
+            <a class="dropdown-item nav-link" routerLink="/about-group"
+              >Group</a
+            >
+            <a class="dropdown-item nav-link" routerLink="/about-blog">Blog</a>
+          </div>
+        </div>
       </li>
     </ul>
   </div>

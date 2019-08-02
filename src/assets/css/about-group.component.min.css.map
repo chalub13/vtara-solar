@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/about-group/about-group.component.sass"
+    ],
+    "names": [],
+    "file": "about-group.component.min.css"
+}

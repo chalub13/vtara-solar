@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,AAAC,CACV,UAAU,CAAE,MAAM,CAClB,gBAAgB,CAAE,IAAI,CAAG",
+    "sources": [
+        "../../app/about-team/about-team.component.sass"
+    ],
+    "names": [],
+    "file": "about-team.component.min.css"
+}

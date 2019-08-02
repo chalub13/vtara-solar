@@ -88,7 +88,7 @@ body
                 a.nav-link
                     max-height: $top-height
                     padding: 0
-.navbar#mainNav
+.navbar#mainNav, 
     margin-top: $top-height
     text-transform: uppercase
     font-weight: 700
@@ -99,13 +99,22 @@ body
         font-size: 0.9rem
     @media (max-width: 767px)
         font-size: 0.7rem
+    .dropdown-menu
+        margin-top: 1.1rem
+        font-weight: 700
+        letter-spacing: 0.1rem
+        background: rgba(0, 0, 0, 0.6) !important
+        padding: .1rem 1rem !important
+        @media (min-width: 768px)
+            font-size: 0.7rem
+        @media (max-width: 767px)
+            font-size: 0.5rem
     .navbar-brand img 
         height: 4rem
     .navbar-nav li 
         padding-right: 0.7rem
-.navbar#mainNav
     .navbar-nav
-        .nav-link 
+        .nav-link
             color: $orange
             @media (min-width: 768px)
                 padding-top: 0.8rem
@@ -116,6 +125,7 @@ body
         .nav-link.active,
         .nav-link:hover 
             color: $light-green
+            background: none
 .home-inner
     position: fixed
     display: table
@@ -228,7 +238,7 @@ h3.heading
     p
         font-size: 1.1rem
 .fixed
-    background-image: url("../img/177VGmsA.jpg")
+    background-image: url("../img/drone/Solar-17.jpg")
     z-index: -1
 .dark
     background-color: rgba(0, 0, 0, 0.75)
@@ -243,6 +253,10 @@ h3.heading
     img
         width: 100%
         border-radius: 50%
+        @media (max-width: 767px)
+            max-width: 50%
+            display: block
+            margin: 0 auto
 blockquote
     .fas:before
         margin: 1rem

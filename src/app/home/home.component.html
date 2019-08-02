@@ -5,9 +5,11 @@
 </div>
 
 <div class="caption text-center">
-  <h1>{{ mainCaption }}</h1>
+  <h1>{{ landingPage?.fields.mainCaption }}</h1>
   <h3>{{ phraseCaption }}</h3>
-  <a href="#" class="btn btn-outline-light btn-lg">{{ buttonCaptionText }}</a>
+  <a routerLink="/about-contact-us" class="btn btn-outline-light btn-lg">{{
+    buttonCaptionText
+  }}</a>
 </div>
 
 <div class="jumbotron">
@@ -147,7 +149,9 @@
 <footer>
   <div class="row justify-content-center">
     <div class="col-sm-12 text-center">
-      <img src="../../assets/img/logo/logo-0.png" />
+      <a href="#" routerLinkActive="active"
+        ><img src="../../assets/img/logo/logo-0.png"
+      /></a>
     </div>
     <div class="col-md-12">
       <div class="row">

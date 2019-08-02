@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/about-mission/about-mission.component.sass"
+    ],
+    "names": [],
+    "file": "about-mission.component.min.css"
+}

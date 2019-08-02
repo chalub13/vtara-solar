@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/about-work-with-us/about-work-with-us.component.sass"
+    ],
+    "names": [],
+    "file": "about-work-with-us.component.min.css"
+}
