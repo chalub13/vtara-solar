@@ -32,20 +32,19 @@
   >
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
+      <!-- <ng-container *ngFor="let menu of menus"> -->
+      <li *ngFor="let menu of menus" class="nav-item">
         <div class="dropdown">
           <a
-            routerLink="/forHomeOwners"
             class="nav-link dropdown-toggle"
             id="dropdownMenuOwners"
             data-toggle="dropdown"
             data-hover="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
-            >{{ forHome }}</a
+            >{{ menu.value }}</a
           >
           <div
             class="dropdown-menu dropdown-menu-right"
@@ -58,10 +57,10 @@
           </div>
         </div>
       </li>
-      <li class="nav-item">
+      <!-- </ng-container> -->
+      <!-- <li class="nav-item">
         <div class="dropdown">
           <a
-            routerLink="/forBusiness"
             class="nav-link dropdown-toggle"
             id="dropdownMenuBusiness"
             data-toggle="dropdown"
@@ -83,7 +82,6 @@
       <li class="nav-item">
         <div class="dropdown">
           <a
-            routerLink="/about"
             class="nav-link dropdown-toggle"
             id="dropdownMenuAbout"
             data-toggle="dropdown"
@@ -115,7 +113,7 @@
             <a class="dropdown-item nav-link" routerLink="/about-blog">Blog</a>
           </div>
         </div>
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>

@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.contentfulService
-      .getLandingPage()
-      .then(landingPage => (this.landingPage = landingPage));
+    // this.contentfulService
+    //   .getLandingPage()
+    //   .then(landingPage => (this.landingPage = landingPage));
   }
 }
