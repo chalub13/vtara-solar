@@ -50,6 +50,7 @@
           </ng-container>
           <ng-template #elseTemplate>
             <a
+              [title]="menu.value"
               class="nav-link"
               id="menu.key"
               href="/{{ menu.key }}"
@@ -66,6 +67,7 @@
             id="dropdownItemsOwners"
           >
             <a
+              [title]="subMenu.value"
               *ngFor="let subMenu of menu.sub"
               class="dropdown-item nav-link"
               href="/{{ subMenu.key }}"
