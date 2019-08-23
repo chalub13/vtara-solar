@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/residential/r-testimonials/r-testimonials.component.sass"
+    ],
+    "names": [],
+    "file": "r-testimonials.component.min.css"
+}

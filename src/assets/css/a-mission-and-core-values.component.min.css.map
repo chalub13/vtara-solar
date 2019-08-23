@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/about/a-mission-and-core-values/a-mission-and-core-values.component.sass"
+    ],
+    "names": [],
+    "file": "a-mission-and-core-values.component.min.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/residential/r-warranty-and-after-care/r-warranty-and-after-care.component.sass"
+    ],
+    "names": [],
+    "file": "r-warranty-and-after-care.component.min.css"
+}

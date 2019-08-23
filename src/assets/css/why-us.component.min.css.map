@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/why-us/why-us.component.sass"
+    ],
+    "names": [],
+    "file": "why-us.component.min.css"
+}

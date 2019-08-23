@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/business/b-case-study/b-case-study.component.sass"
+    ],
+    "names": [],
+    "file": "b-case-study.component.min.css"
+}

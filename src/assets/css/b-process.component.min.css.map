@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../app/business/b-process/b-process.component.sass"
+    ],
+    "names": [],
+    "file": "b-process.component.min.css"
+}
