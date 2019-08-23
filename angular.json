@@ -25,11 +25,13 @@
             "aot": false,
             "assets": ["src/assets"],
             "styles": [
+              "node_modules/venobox/venobox/venobox.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/assets/css/styles.min.css"
             ],
             "scripts": [
+              "node_modules/venobox/venobox/venobox.min.js",
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
