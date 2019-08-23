@@ -1,8 +1,8 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,QAAQ,CAGE,AAJxB,AAEI,OAFG,CAEH,GAAG,AAAC,CACA,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,IAAI,CAAG",
     "sources": [
-        "../../app/business/b-case-study/b-case-study.component.sass"
+        "../../app/components/business/b-case-study/b-case-study.component.sass"
     ],
     "names": [],
     "file": "b-case-study.component.min.css"
