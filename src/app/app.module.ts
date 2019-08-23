@@ -22,6 +22,7 @@ import { ATeamAndWorkWithUsComponent } from './components/about/a-team-and-work-
 import { AMissionAndCoreValuesComponent } from './components/about/a-mission-and-core-values/a-mission-and-core-values.component';
 import { AOurGroupComponent } from './components/about/a-our-group/a-our-group.component';
 import { ASocialEntrepreneurComponent } from './components/about/a-social-entrepreneur/a-social-entrepreneur.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ASocialEntrepreneurComponent } from './components/about/a-social-entrep
     ATeamAndWorkWithUsComponent,
     AMissionAndCoreValuesComponent,
     AOurGroupComponent,
-    ASocialEntrepreneurComponent
+    ASocialEntrepreneurComponent,
+    FooterComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [ContentfulService],

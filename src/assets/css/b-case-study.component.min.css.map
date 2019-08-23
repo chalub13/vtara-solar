@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,QAAQ,CAGE,AAJxB,AAEI,OAFG,CAEH,GAAG,AAAC,CACA,MAAM,CAAE,KAAK,CACb,KAAK,CAAE,IAAI,CAAG",
+    "mappings": "",
     "sources": [
         "../../app/components/business/b-case-study/b-case-study.component.sass"
     ],
