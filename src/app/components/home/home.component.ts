@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Entry } from 'contentful';
 import { Router } from '@angular/router';
-import { ContentfulService } from '../contentful.service';
+import { ContentfulService } from '../../services/contentful.service';
 
 @Component({
   selector: 'app-home',
