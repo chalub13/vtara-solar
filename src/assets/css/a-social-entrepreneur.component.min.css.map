@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/about/a-social-entrepreneur/a-social-entrepreneur.component.sass"
+        "../../app/components/about/a-social-entrepreneur/a-social-entrepreneur.component.sass"
     ],
     "names": [],
     "file": "a-social-entrepreneur.component.min.css"

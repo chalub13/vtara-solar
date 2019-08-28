@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/whatshappening/whatshappening.component.sass"
+        "../../app/components/whatshappening/whatshappening.component.sass"
     ],
     "names": [],
     "file": "whatshappening.component.min.css"

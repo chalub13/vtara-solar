@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/residential/r-next-steps/r-next-steps.component.sass"
+        "../../app/components/residential/r-next-steps/r-next-steps.component.sass"
     ],
     "names": [],
     "file": "r-next-steps.component.min.css"

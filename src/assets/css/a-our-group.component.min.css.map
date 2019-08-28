@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/about/a-our-group/a-our-group.component.sass"
+        "../../app/components/about/a-our-group/a-our-group.component.sass"
     ],
     "names": [],
     "file": "a-our-group.component.min.css"

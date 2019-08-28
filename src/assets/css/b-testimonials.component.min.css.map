@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/business/b-testimonials/b-testimonials.component.sass"
+        "../../app/components/business/b-testimonials/b-testimonials.component.sass"
     ],
     "names": [],
     "file": "b-testimonials.component.min.css"

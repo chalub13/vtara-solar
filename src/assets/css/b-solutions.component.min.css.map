@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/business/b-solutions/b-solutions.component.sass"
+        "../../app/components/business/b-solutions/b-solutions.component.sass"
     ],
     "names": [],
     "file": "b-solutions.component.min.css"

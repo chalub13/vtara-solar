@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../app/contact-us/contact-us.component.sass"
+        "../../app/components/contact-us/contact-us.component.sass"
     ],
     "names": [],
     "file": "contact-us.component.min.css"
