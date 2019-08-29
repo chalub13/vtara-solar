@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { ContentfulService } from './services/contentful.service';
 
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatVideoModule } from 'mat-video';
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
@@ -46,7 +49,12 @@ import { FooterComponent } from './components/footer/footer.component';
     ASocialEntrepreneurComponent,
     FooterComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatVideoModule
+  ],
   providers: [ContentfulService],
   bootstrap: [AppComponent]
 })

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Venobox } from 'venobox';
 
 @Component({
   selector: 'b-testimonials',
@@ -7,9 +6,7 @@ import { Venobox } from 'venobox';
   styleUrls: ['./b-testimonials.component.sass']
 })
 export class BTestimonialsComponent implements OnInit {
-  constructor(private venobox: Venobox) {}
+  constructor() {}
 
-  ngOnInit() {
-    this.venobox.venobox();
-  }
+  ngOnInit() {}
 }
