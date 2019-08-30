@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../solar-theme.scss"
+    ],
+    "names": [],
+    "file": "solar-theme.min.css"
+}

@@ -5,7 +5,9 @@ import { ContentfulService } from './services/contentful.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatVideoModule } from 'mat-video';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -53,7 +55,9 @@ import { FooterComponent } from './components/footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatVideoModule
+    FormsModule,
+    ReactiveFormsModule,
+    MaterialModule
   ],
   providers: [ContentfulService],
   bootstrap: [AppComponent]
